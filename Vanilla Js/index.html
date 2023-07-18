@@ -4,45 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Function Demo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f1f1f1;
-            color: #333;
-        }
-
-        header {
-            text-align: center;
-            padding: 20px 0;
-            background-color: #007bff;
-            color: #fff;
-        }
-
-        main {
-            max-width: 600px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        button {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-
-        button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <link rel="stylesheet" href="minify.css">
 </head>
 <body>
     <header>
@@ -52,23 +14,7 @@
         <p>This is a simple JavaScript function that adds two numbers:</p>
         <p id="result">Result will be displayed here.</p>
         <button onclick="displayResult()">Calculate</button>
-
-        <script>
-            // JavaScript function to add two numbers
-            function addNumbers(a, b) {
-                return a + b;
-            }
-
-            // Function to display the result
-            function displayResult() {
-                var a = 5;
-                var b = 10;
-                var sum = addNumbers(a, b);
-
-                var resultElement = document.getElementById("result");
-                resultElement.textContent = "The sum of " + a + " and " + b + " is: " + sum;
-            }
-        </script>
     </main>
+    <script src="minify.css"></script>
 </body>
 </html>
